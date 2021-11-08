@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### This project include the pg_search gem to create a partial search with Ajax. 
 
-Things you may want to cover:
+### Check the following instructions and also check the documentation. 
 
-* Ruby version
+1. Postgresql database required to pg_search usage
 
-* System dependencies
+2. jQuery required for pg_search and bootstrap usage.
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
