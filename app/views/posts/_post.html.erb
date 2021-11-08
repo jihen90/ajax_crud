@@ -1,0 +1,8 @@
+<tr id="post-<%= p.id %>">
+    <td><%= p.id %></td>
+    <td><%= p.title %></td>
+    <td><%= p.content %></td>
+    <td><%= link_to 'Ver', p, remote: true, class:'btn btn-outline-primary' %></td>
+    <td><%= link_to 'Editar', edit_post_path(p), remote: true, class: 'btn btn-outline-primary' %></td>
+    <td><%= link_to 'Eliminar', p, method: :delete, remote: true, class: 'btn btn-outline-danger', data: {confirm: "seguro que los quieres borrar?"} %></td>
+</tr>
